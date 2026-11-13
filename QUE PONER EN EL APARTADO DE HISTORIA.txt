@@ -1,0 +1,314 @@
+# Inteligencia artificial: qué es, cómo funciona, evolución, aplicaciones y desafíos
+
+## 1. ¿Qué es la inteligencia artificial?
+
+La inteligencia artificial, también conocida como IA, es una rama de la informática dedicada al desarrollo de sistemas capaces de realizar tareas que normalmente requieren determinadas capacidades de la inteligencia humana. Entre ellas se encuentran el aprendizaje, el razonamiento, la resolución de problemas, el reconocimiento de imágenes, la comprensión del lenguaje y la generación de contenido.
+
+En la actualidad, la inteligencia artificial está presente en numerosos aspectos de nuestra vida cotidiana. Los asistentes virtuales, los sistemas de recomendación de películas y música, los traductores automáticos, los vehículos con funciones de conducción asistida y las herramientas de generación de imágenes y textos son algunos ejemplos de su aplicación.
+
+Aunque suele hablarse de la IA como si fuera una única tecnología, en realidad engloba numerosos métodos, programas y sistemas diferentes. Algunos están diseñados para ejecutar tareas muy concretas, mientras que otros pueden trabajar con información de distintos tipos y adaptarse a una mayor variedad de instrucciones.
+
+Es importante señalar que el hecho de que una máquina produzca respuestas aparentemente inteligentes no significa necesariamente que comprenda la realidad de la misma manera que una persona. Los sistemas actuales procesan información mediante modelos matemáticos y procedimientos computacionales, y sus capacidades dependen de su diseño, sus datos y las tareas para las que han sido desarrollados.
+
+Según la [UNESCO](https://www.unesco.org/es/articles/de-que-hablamos-cuando-hablamos-de-inteligencia-artificial), comprender la inteligencia artificial exige estudiar tanto sus fundamentos técnicos como sus usos, sus limitaciones y sus consecuencias sociales.
+
+**[ESPACIO PARA IMAGEN 1: ilustración de una inteligencia artificial interactuando con una persona, un ordenador y distintos dispositivos.]**
+
+## 2. Historia y evolución de la inteligencia artificial
+
+La inteligencia artificial no apareció de repente con los asistentes conversacionales modernos. Su desarrollo es el resultado de décadas de investigación en matemáticas, lógica, informática y otras disciplinas científicas.
+
+### Los primeros planteamientos
+
+Durante la primera mitad del siglo XX, los avances en lógica matemática y computación permitieron plantear una pregunta fundamental: ¿podrían las máquinas ejecutar procesos que se asemejaran al razonamiento humano?
+
+Uno de los investigadores más destacados de esta etapa fue Alan Turing, matemático británico que estudió las posibilidades teóricas de la computación y reflexionó sobre la capacidad de las máquinas para mostrar comportamientos inteligentes. En 1950 publicó un trabajo en el que propuso una prueba conversacional conocida posteriormente como el test de Turing.
+
+### El nacimiento oficial de la disciplina
+
+El término «inteligencia artificial» se popularizó en 1956, durante un encuentro de investigación celebrado en el Dartmouth College, en Estados Unidos. En él participaron científicos interesados en estudiar cómo podían construirse máquinas capaces de resolver problemas mediante procedimientos asociados con la inteligencia.
+
+Durante los años siguientes se desarrollaron programas que podían resolver problemas matemáticos, demostrar determinados teoremas y jugar a juegos de estrategia. Sin embargo, estos sistemas solían funcionar en situaciones limitadas y necesitaban reglas diseñadas por personas.
+
+### Los períodos de dificultades
+
+El progreso no fue constante. En diferentes momentos, las expectativas sobre la inteligencia artificial superaron las capacidades reales de la tecnología disponible. La falta de potencia informática, la escasez de datos y las limitaciones de los métodos existentes dificultaron numerosos proyectos.
+
+Estos períodos de menor financiación e interés se conocen habitualmente como «inviernos de la inteligencia artificial». A pesar de ellos, continuaron las investigaciones que más tarde permitirían nuevos avances.
+
+### El auge del aprendizaje automático
+
+Con el aumento de la potencia de los ordenadores y la disponibilidad de grandes cantidades de datos, adquirieron importancia los métodos de aprendizaje automático. En lugar de depender exclusivamente de reglas programadas de manera explícita, estos sistemas podían identificar patrones en los ejemplos utilizados durante su entrenamiento.
+
+Posteriormente, el aprendizaje profundo, basado en redes neuronales artificiales con múltiples capas, mejoró las capacidades de los sistemas de reconocimiento de imágenes, procesamiento del lenguaje y análisis de información compleja.
+
+### La expansión de la IA generativa
+
+Durante la década de 2020, la inteligencia artificial generativa se popularizó gracias a herramientas capaces de producir textos, imágenes, audio, vídeos y código a partir de instrucciones escritas o de otros datos de entrada.
+
+Este avance amplió el acceso del público a tecnologías que anteriormente se utilizaban principalmente en ámbitos especializados. Al mismo tiempo, aumentó el debate sobre la fiabilidad de los contenidos generados, la protección de los datos, los derechos de autor y el impacto de la automatización en el trabajo y la educación.
+
+La evolución histórica de la IA demuestra que se trata de un campo en constante transformación, cuyo desarrollo depende tanto de los avances científicos como de los recursos informáticos y de las necesidades de la sociedad.
+
+**[ESPACIO PARA IMAGEN 2: línea temporal de la inteligencia artificial, desde Alan Turing y Dartmouth en 1956 hasta el aprendizaje profundo y la IA generativa.]**
+
+## 3. ¿Cómo funciona la inteligencia artificial?
+
+Para comprender cómo funciona la IA, es necesario conocer algunos de los elementos que permiten a los sistemas informáticos procesar información y generar resultados.
+
+### Los datos
+
+Los datos constituyen uno de los elementos fundamentales de numerosos sistemas de inteligencia artificial. Pueden incluir textos, fotografías, grabaciones de audio, vídeos, mediciones numéricas o información procedente de sensores.
+
+Durante el entrenamiento, algunos modelos analizan ejemplos para identificar relaciones y patrones estadísticos. La calidad, la diversidad y la representatividad de esos datos pueden influir considerablemente en los resultados obtenidos.
+
+### Los algoritmos y los modelos
+
+Un algoritmo es un conjunto de instrucciones o procedimientos destinados a resolver un problema. En la inteligencia artificial, los algoritmos se utilizan para procesar información, ajustar modelos y generar resultados.
+
+Un modelo de IA es un sistema computacional que ha sido construido o entrenado para realizar determinadas tareas. Dependiendo de su diseño, puede clasificar información, realizar predicciones, reconocer objetos, responder preguntas o generar contenido nuevo.
+
+### El entrenamiento
+
+En muchos sistemas modernos, el entrenamiento consiste en ajustar los parámetros de un modelo mediante ejemplos y métodos matemáticos. El objetivo es que el sistema aprenda relaciones útiles para realizar una tarea determinada.
+
+Por ejemplo, un modelo de reconocimiento de imágenes puede entrenarse con fotografías etiquetadas para aprender a distinguir diferentes categorías de objetos. Después del entrenamiento, podrá analizar imágenes nuevas y estimar a qué categoría pertenecen.
+
+Este proceso no garantiza resultados perfectos. El modelo puede equivocarse cuando encuentra situaciones diferentes de las que ha aprendido, datos de mala calidad o ejemplos ambiguos.
+
+### La generación de resultados
+
+Una vez preparado, el sistema recibe una entrada y produce una salida. Esta puede ser una clasificación, una predicción, una recomendación, una decisión automatizada o un contenido generado.
+
+En el caso de un asistente conversacional, el sistema procesa el mensaje del usuario y produce una respuesta a partir de los patrones aprendidos durante su entrenamiento y del contexto disponible.
+
+Por eso, una respuesta bien redactada no siempre es correcta. Algunos modelos generativos pueden producir información falsa o referencias inexistentes con un tono convincente. Este fenómeno hace necesario comprobar los datos importantes y no confundir fluidez lingüística con exactitud.
+
+**[ESPACIO PARA IMAGEN 3: infografía con el proceso «Datos de entrada → Modelo de IA → Procesamiento → Resultado», acompañada de un ejemplo sencillo.]**
+
+## 4. Principales tipos de inteligencia artificial
+
+La inteligencia artificial puede clasificarse de distintas maneras, según sus capacidades, sus métodos de funcionamiento o las tareas que realiza.
+
+### IA especializada o estrecha
+
+Es la inteligencia artificial diseñada para desarrollar una tarea o un conjunto limitado de tareas. Entre sus ejemplos se encuentran los filtros de correo no deseado, los sistemas de reconocimiento facial, los programas de traducción y los algoritmos que recomiendan contenido.
+
+Aunque algunos de estos sistemas pueden alcanzar resultados extraordinarios en su campo, eso no implica que posean capacidades generales para resolver cualquier problema.
+
+### Inteligencia artificial general
+
+La inteligencia artificial general es un concepto que hace referencia a un sistema hipotético capaz de aprender y desenvolverse en una amplia variedad de tareas intelectuales, con una flexibilidad comparable a la humana.
+
+No existe un consenso que permita considerar que se haya alcanzado plenamente este objetivo. Por ello, conviene distinguir entre las capacidades concretas de los sistemas actuales y las posibilidades teóricas que todavía se investigan.
+
+### Aprendizaje automático
+
+El aprendizaje automático, conocido también como *machine learning*, es una rama de la IA que permite construir modelos capaces de identificar patrones a partir de datos.
+
+Entre sus métodos se encuentran el aprendizaje supervisado, que utiliza ejemplos asociados a resultados conocidos; el aprendizaje no supervisado, que busca estructuras o agrupaciones en los datos; y el aprendizaje por refuerzo, que utiliza señales de recompensa para orientar el comportamiento de un sistema.
+
+### Aprendizaje profundo
+
+El aprendizaje profundo, o *deep learning*, utiliza redes neuronales artificiales compuestas por múltiples capas de procesamiento. Estos modelos pueden aprender representaciones complejas de los datos y han contribuido a los avances en reconocimiento de voz, visión artificial y generación de contenido.
+
+### Inteligencia artificial generativa
+
+La IA generativa es una categoría de sistemas capaces de producir contenido nuevo, como textos, imágenes, música, audio, vídeos o código.
+
+Su funcionamiento depende del modelo utilizado. Algunos aprenden patrones estadísticos del lenguaje, mientras que otros emplean métodos diferentes para generar imágenes o procesar audio. No todos los sistemas generativos funcionan de la misma manera.
+
+Estas categorías no son excluyentes: un sistema generativo puede utilizar aprendizaje profundo y formar parte de un campo más amplio de aprendizaje automático.
+
+**[ESPACIO PARA IMAGEN 4: esquema visual que relacione IA, aprendizaje automático, aprendizaje profundo e IA generativa.]**
+
+## 5. Principales aplicaciones de la inteligencia artificial
+
+La inteligencia artificial se utiliza en numerosos sectores. Sus aplicaciones pueden mejorar procesos, ayudar a interpretar grandes cantidades de información y facilitar tareas que anteriormente requerían mucho tiempo.
+
+### Medicina y salud
+
+En el ámbito sanitario, la IA puede ayudar a analizar imágenes médicas, identificar patrones en determinados datos clínicos, apoyar la investigación de medicamentos y facilitar algunas tareas administrativas.
+
+También se investiga su utilización para desarrollar tratamientos más personalizados y mejorar la planificación de los recursos sanitarios.
+
+Sin embargo, estas herramientas no deben considerarse infalibles. Sus resultados requieren una evaluación adecuada y, cuando afectan a decisiones clínicas, deben integrarse bajo la supervisión de profesionales cualificados.
+
+### Educación
+
+En educación, la IA puede utilizarse para adaptar ejercicios al nivel del estudiante, explicar conceptos, generar materiales didácticos, traducir textos y facilitar el acceso a determinados recursos de aprendizaje.
+
+Un estudiante puede utilizar estas herramientas para practicar un idioma, resolver dudas o recibir explicaciones alternativas de un tema difícil.
+
+No obstante, depender completamente de la IA puede perjudicar el aprendizaje si sustituye el razonamiento propio. También es necesario comprobar la exactitud de las respuestas y respetar las normas académicas de cada centro educativo.
+
+### Industria y robótica
+
+En la industria, los sistemas de IA pueden analizar datos de producción, detectar anomalías, ayudar a predecir averías y mejorar la planificación de procesos.
+
+Cuando se combina con la robótica, también puede contribuir a que las máquinas reconozcan objetos, interpreten información de sensores y realicen determinadas operaciones con mayor autonomía.
+
+### Transporte
+
+La IA se utiliza en sistemas de navegación, planificación de rutas, gestión del tráfico y asistencia a la conducción. Estos sistemas pueden analizar información procedente de cámaras, sensores y otros dispositivos para ayudar a identificar situaciones relevantes.
+
+La conducción automatizada, sin embargo, plantea desafíos importantes relacionados con la seguridad, la responsabilidad y la capacidad de reaccionar ante situaciones inesperadas.
+
+### Economía y empresas
+
+Las empresas utilizan la IA para analizar tendencias, organizar información, detectar determinadas operaciones sospechosas, automatizar tareas administrativas y mejorar la atención al cliente.
+
+Estas aplicaciones pueden aumentar la eficiencia, aunque también requieren medidas de seguridad y controles que eviten errores, discriminación o decisiones perjudiciales.
+
+### Comunicación y entretenimiento
+
+Los sistemas de recomendación ayudan a seleccionar películas, canciones, noticias y otros contenidos en función de diferentes señales relacionadas con los intereses de los usuarios.
+
+La IA generativa también permite crear imágenes, voces sintéticas, música y otros materiales digitales. Estas capacidades ofrecen nuevas posibilidades creativas, pero hacen más importante distinguir entre contenidos auténticos, contenidos modificados y materiales completamente generados por ordenador.
+
+### Medio ambiente
+
+La inteligencia artificial puede ayudar a analizar imágenes por satélite, estudiar fenómenos meteorológicos, detectar cambios en los ecosistemas y optimizar determinados consumos energéticos.
+
+Su utilidad medioambiental depende de cada aplicación y debe valorarse junto con los recursos necesarios para entrenar y ejecutar los sistemas.
+
+**[ESPACIO PARA IMAGEN 5: collage con aplicaciones de la IA en medicina, educación, transporte, industria y medio ambiente.]**
+
+## 6. Ventajas de la inteligencia artificial
+
+El desarrollo de la IA ofrece beneficios potenciales en diferentes ámbitos de la sociedad.
+
+**Automatización de tareas.** Puede ejecutar procesos repetitivos o analizar grandes volúmenes de información, permitiendo que las personas dediquen más tiempo a actividades que requieren supervisión, creatividad o interacción humana.
+
+**Velocidad de procesamiento.** Los sistemas informáticos pueden analizar grandes cantidades de datos con rapidez, algo especialmente útil en investigación científica, logística y análisis de información.
+
+**Apoyo a la toma de decisiones.** La IA puede detectar patrones difíciles de identificar manualmente y proporcionar información que ayude a evaluar diferentes alternativas.
+
+**Accesibilidad.** Las herramientas de reconocimiento de voz, subtitulado automático, traducción y asistencia digital pueden facilitar el acceso a la información a personas con distintas necesidades.
+
+**Personalización.** Algunos sistemas pueden adaptar recomendaciones, materiales educativos o servicios a las características y necesidades de cada usuario.
+
+**Innovación científica.** La IA contribuye a explorar problemas complejos, analizar resultados experimentales y acelerar determinadas fases de investigación.
+
+A pesar de estas ventajas, los beneficios no aparecen automáticamente. Dependen de la calidad del sistema, del contexto en el que se utiliza y de la existencia de mecanismos adecuados de control.
+
+## 7. Desventajas, riesgos y limitaciones
+
+La inteligencia artificial también presenta problemas que deben analizarse para comprender sus consecuencias reales.
+
+### Errores y falta de fiabilidad
+
+Los modelos pueden producir resultados incorrectos, interpretar mal una instrucción o generar explicaciones que parecen razonables, pero contienen errores. Por esta razón, es especialmente importante verificar la información en ámbitos como la medicina, el derecho, la ciencia y la educación.
+
+### Sesgos y discriminación
+
+Los sistemas pueden reproducir patrones discriminatorios presentes en los datos utilizados durante su desarrollo. Si un modelo se entrena con información poco representativa, sus resultados pueden ser menos precisos para determinados grupos de personas.
+
+Para reducir este riesgo, es necesario evaluar los sistemas con datos adecuados, realizar pruebas y establecer mecanismos de supervisión.
+
+### Privacidad y protección de datos
+
+Algunas aplicaciones necesitan procesar información personal, imágenes, voces o datos relacionados con la actividad de los usuarios. Una gestión inadecuada de esa información puede generar riesgos para la privacidad.
+
+Por ello, conviene limitar la recopilación de datos, aplicar medidas de seguridad y respetar la legislación vigente.
+
+### Empleo y transformación económica
+
+La automatización puede modificar muchas profesiones y reducir la necesidad de realizar determinadas tareas manualmente. Al mismo tiempo, también puede generar nuevas ocupaciones y aumentar la demanda de otras competencias.
+
+El efecto final dependerá del sector, de la velocidad de adopción de estas tecnologías y de la capacidad de las personas y las instituciones para adaptarse a los cambios.
+
+### Desinformación y contenidos manipulados
+
+La IA generativa permite producir textos, imágenes, audios y vídeos convincentes. Estas capacidades pueden utilizarse para crear materiales engañosos, imitar voces o difundir información falsa.
+
+Por ello, es importante comprobar el origen de los contenidos y contrastar las afirmaciones relevantes con fuentes fiables.
+
+### Dependencia tecnológica
+
+Un uso excesivo de herramientas automatizadas puede reducir las oportunidades de practicar ciertas habilidades si las personas delegan constantemente en ellas tareas que podrían realizar por sí mismas.
+
+En el ámbito educativo, por ejemplo, utilizar la IA para obtener explicaciones puede ser útil, mientras que copiar directamente sus respuestas sin comprenderlas puede dificultar el aprendizaje.
+
+### Costes energéticos y ambientales
+
+El desarrollo y funcionamiento de algunos sistemas de IA requieren electricidad, equipos informáticos y, en determinados centros de datos, recursos para la refrigeración.
+
+El impacto ambiental varía según el modelo, la infraestructura, la fuente de energía y la frecuencia de uso. Por ello, es importante evaluar tanto los posibles beneficios ambientales como los recursos necesarios para conseguirlos.
+
+En definitiva, la IA no debe considerarse una tecnología automáticamente beneficiosa o perjudicial. Sus consecuencias dependen de cómo se diseña, quién la utiliza, con qué finalidad y bajo qué controles.
+
+**[ESPACIO PARA IMAGEN 6: ilustración dividida en dos partes, con los beneficios de la IA a un lado y sus riesgos al otro.]**
+
+## 8. Inteligencia artificial, ética y regulación
+
+El desarrollo de sistemas cada vez más capaces plantea preguntas que van más allá de la informática. También es necesario considerar la responsabilidad, los derechos humanos, la transparencia y el impacto social de estas tecnologías.
+
+La ética de la inteligencia artificial estudia cómo diseñar y utilizar estos sistemas de forma responsable. Entre sus principios más importantes destacan los siguientes:
+
+- **Transparencia:** ofrecer información suficiente sobre el funcionamiento y las limitaciones de los sistemas cuando resulte necesario.
+- **Responsabilidad:** establecer quién debe responder por los daños, errores o decisiones relacionados con su utilización.
+- **Equidad:** reducir los sesgos injustificados y evitar la discriminación.
+- **Privacidad:** proteger los datos personales y respetar los derechos de los usuarios.
+- **Supervisión humana:** mantener mecanismos de control adecuados, especialmente cuando las decisiones pueden tener consecuencias importantes.
+- **Seguridad:** evaluar los riesgos y adoptar medidas para evitar usos perjudiciales.
+- **Sostenibilidad:** valorar el impacto de estas tecnologías sobre los recursos naturales y el medio ambiente.
+
+La [UNESCO](https://www.unesco.org/es/artificial-intelligence/recommendation-ethics) adoptó en noviembre de 2021 una Recomendación sobre la Ética de la Inteligencia Artificial, que establece principios para orientar el desarrollo y el uso responsable de estas tecnologías.
+
+En la Unión Europea, el Reglamento de Inteligencia Artificial, conocido como *AI Act*, establece un marco normativo basado en los riesgos de los diferentes usos de la IA. Determinadas prácticas están prohibidas, mientras que otras están sujetas a obligaciones específicas según sus características y posibles efectos.
+
+Este enfoque pretende reducir los riesgos para las personas y los derechos fundamentales sin impedir que la investigación y la innovación continúen desarrollándose.
+
+La regulación debe adaptarse a una tecnología que cambia con rapidez. Por eso, resulta importante combinar las normas jurídicas con la investigación, la educación digital y la cooperación entre gobiernos, empresas, científicos y ciudadanos.
+
+**[ESPACIO PARA IMAGEN 7: ilustración sobre ética tecnológica, derechos humanos, privacidad y supervisión humana.]**
+
+## 9. El futuro de la inteligencia artificial
+
+El futuro de la inteligencia artificial dependerá de los avances científicos, de la capacidad de los sistemas informáticos y de las decisiones que tomen las sociedades sobre su utilización.
+
+Es probable que continúen desarrollándose herramientas capaces de combinar texto, imágenes, audio y vídeo, así como sistemas que colaboren con profesionales en tareas cada vez más diversas. También podrían mejorar las aplicaciones relacionadas con la investigación científica, la accesibilidad, la educación y la gestión de recursos.
+
+En el ámbito laboral, la IA puede transformar la forma de realizar muchas actividades. Algunas tareas podrían automatizarse, mientras que otras requerirán nuevas competencias relacionadas con la interpretación de resultados, la supervisión de sistemas y la resolución de problemas.
+
+Sin embargo, no es posible predecir con exactitud hasta dónde llegarán estas tecnologías ni qué consecuencias tendrán en todos los sectores. Las capacidades de los modelos actuales no deben confundirse con las predicciones sobre sistemas futuros.
+
+Uno de los principales retos será garantizar que los avances tecnológicos se traduzcan en beneficios sociales amplios y no aumenten las desigualdades. Para conseguirlo, será necesario invertir en educación, facilitar la adaptación profesional y asegurar que los riesgos se evalúen antes de introducir determinadas aplicaciones.
+
+El desarrollo responsable de la inteligencia artificial no depende únicamente de construir sistemas más potentes. También requiere decidir qué problemas merece la pena resolver, qué límites deben respetarse y cómo se distribuyen los beneficios y las responsabilidades.
+
+**[ESPACIO PARA IMAGEN 8: ilustración futurista de personas colaborando con sistemas de inteligencia artificial en diferentes ámbitos.]**
+
+## 10. Conclusión
+
+La inteligencia artificial constituye uno de los campos tecnológicos más relevantes de nuestro tiempo. Su evolución, desde los primeros estudios teóricos hasta los actuales sistemas capaces de analizar y generar contenidos, demuestra la importancia de la investigación científica y del desarrollo informático.
+
+Sus aplicaciones ofrecen oportunidades para mejorar procesos, apoyar la investigación, facilitar el acceso a la información y resolver determinados problemas. Sin embargo, también plantean desafíos relacionados con la fiabilidad, la privacidad, la discriminación, el empleo, la desinformación y el impacto ambiental.
+
+Por este motivo, comprender la IA exige adoptar una perspectiva equilibrada. No basta con conocer sus capacidades: también es necesario reconocer sus limitaciones, evaluar sus resultados y comprender las consecuencias de su utilización.
+
+La inteligencia artificial debe entenderse como una herramienta desarrollada y utilizada por personas, cuyas aplicaciones requieren criterios técnicos, éticos y sociales. Su futuro dependerá tanto de los avances de la tecnología como de la responsabilidad con la que se decida emplearla.
+
+En una sociedad cada vez más digitalizada, aprender cómo funciona la IA y desarrollar una actitud crítica ante sus resultados será fundamental para aprovechar sus posibilidades sin ignorar los riesgos que presenta.
+
+## Fuentes y lecturas recomendadas
+
+Para ampliar la información y contrastar los contenidos de este artículo, se pueden consultar las siguientes fuentes:
+
+1. **Wikipedia — Inteligencia artificial.** Artículo enciclopédico de referencia para una introducción general, sus conceptos y su evolución histórica.  
+   https://es.wikipedia.org/wiki/Inteligencia_artificial
+
+2. **UNESCO — De qué hablamos cuando hablamos de inteligencia artificial.** Explicación divulgativa de los fundamentos, el funcionamiento y los usos de la IA.  
+   https://www.unesco.org/es/articles/de-que-hablamos-cuando-hablamos-de-inteligencia-artificial
+
+3. **Naciones Unidas — Inteligencia artificial.** Información sobre las oportunidades y los desafíos globales asociados a esta tecnología.  
+   https://www.un.org/es/global-issues/artificial-intelligence
+
+4. **Comisión Europea / Consejo de la Unión Europea — Inteligencia artificial: usos y efectos.** Información sobre aplicaciones, riesgos y regulación europea.  
+   https://www.consilium.europa.eu/es/policies/ai-explained/
+
+5. **UNESCO — Ética de la inteligencia artificial.** Principios y recomendaciones para fomentar un desarrollo respetuoso con los derechos humanos y la dignidad de las personas.  
+   https://www.unesco.org/es/artificial-intelligence/recommendation-ethics
+
+Estas fuentes ofrecen una base para continuar investigando. Cuando se utilice información específica, cifras o afirmaciones técnicas en un trabajo académico, es recomendable consultar la fuente original y comprobar su fecha de publicación o actualización.

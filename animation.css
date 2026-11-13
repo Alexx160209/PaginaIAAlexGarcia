@@ -1,0 +1,49 @@
+#pjsCanvas{ /*RELOJ*/
+	display:flex;
+	width:50px;
+	position:relative;
+}
+#fa1{
+	animation: fa1A 20s ease-out infinite alternate;
+	position:relative;
+}
+@keyframes fa1A{
+	0% {left: 0px; }
+	100% {left: 85%;}
+}
+#fa2{
+	animation: fa2A 6s linear infinite alternate;
+	position:relative;
+}
+@keyframes fa2A{
+	0% {left: 0px; transform:rotate(0deg);filter:hoe-rotate(1deg)}
+	50% {left: 40%;transform:rotate(180deg);filter:hoe-rotate(180deg)}
+	100% {left: 80%;transform:rotate(360deg);filter:hoe-rotate(359deg)}
+}
+#fa3{
+	animation: fa3A 10s linear infinite alternate;
+	position:relative;
+}
+@keyframes fa3A{
+	0% {left: 0px; transform:scale 1,1) }
+	50% {left: 40%;transform:scale(0.5,0.5)}
+	100% {left: 80%;transform:scale(1.2,1.2)}
+}
+#fa4{
+	animation: fa4A 3s linear infinite normal;
+	position:relative;
+}
+@keyframes fa4A{
+	0% {left:50%; transform:rotate(0deg);}
+	50% {left: 50%;transform:rotate(180deg);}
+	100% {left: 50%;transform:rotate(360deg);}
+}
+#fa5{
+	animation: fa4A 3s linear infinite normal;
+	position:relative;
+}
+@keyframes fa5A{
+	0% {left:50%; transform:scale(1,1)}
+	50% {left: 50%;transform:scale(0.2,0.2)}
+	100% {left: 50%;transform:scale(1.5,1.5)}
+}

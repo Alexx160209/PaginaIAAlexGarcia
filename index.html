@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+	<head>
+		<title> Página IA Alejandro García</title>
+		<meta charset="UTF-8">
+		<link href="icono.ico" rel ="icon"/> <!--Para colocar el icono-->
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="animacion.css" rel="stylesheet" type="text/css">
+		<script src="processing.js"></script><!-- para insertar un processing-->
+		<script type="text/processing" data-processing-target="pjsCanvas">
+		void setup(){
+		size(280,70);
+		background(#165E9E);
+		textSize(50);
+		}
+		void draw(){
+		background(#165E9E);
+		int h= hour();
+		int m=minute();
+		int s=second();
+		text(h+":"+nf(m,2)+":"+nf(s,2),30,50);
+		}
+		</script>
+		
+	</head>
+	<header>
+		<big>PÁGINA WEB SOBRE LA IA</big>
+	</header>
+	<body>
+	<br>
+	<center><canvas id="pjsCanvas" >b</canvas></center>
+	<img src="globo.gif" width="100" height="100" align="right"> </img>
+	<center><audio src="CancionIA.mp3" controls> </audio> </center>
+	<center><p id="title"> APARTADOS </p></center>
+	<nav id="indice">
+	<ul><br>
+			<li type="disc"> <a href="definiciones.html">Definiciones </li>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.027485194373!2d-72.29153454572455!3d43.704359576775694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb4c9dd4f758911%3A0xbdb8574c4db908cc!2sDartmouth%20College!5e0!3m2!1ses!2ses!4v1793710402152!5m2!1ses!2ses" align=right width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+			<br><br><br>
+			<li type="disc"><a href="tiposia.html"> Tipos de IA </li>
+			<iframe align=right width="560" height="315" src="https://www.youtube.com/embed/8lMIdrlIWOQ?si=CpHjN1TEqM4ksgxK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			<br><br><br>
+			<li type="disc"><a href="historiaia.html"> Historia de de IA </li>
+			<br><br><br>
+			<li type="disc"><a href="aplicacionesia.html"> Aplicaciones de la IA </li>
+			<br><br><br>
+			<li type="disc"><a href="futuroia.html"> Futuro de la IA e inconvenientes de la IA </li>
+	</ul>
+	</nav>
+	
+	</body>
+		
